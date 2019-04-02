@@ -59,11 +59,11 @@ Slack Bot for ECS Service Deployment and get Instance IDs.
 
 6. Encrypt Slack tokens set with lambda's environment variable
 
-- Create key in KMS
-  - In Define key usage permissions,
-    - Choose lambda's role, `ecs-deploy-ops-slackbot-YOUR-STAGE-NAME...-lambdaRole`
-- Set encrypt with lambda web console
+   - Create key in KMS
+     - In Define key usage permissions,
+       - Choose lambda's role, `ecs-deploy-ops-slackbot-YOUR-STAGE-NAME...-lambdaRole`
+   - Set encrypt with lambda web console
 
-  - Once you set, you don't need to set again every time you deploy
+     - Once you set, you don't need to set again every time you deploy
 
-    <img src="./pic/encrypt.png" width=400>
+       <img src="./pic/encrypt.png" width=400>
