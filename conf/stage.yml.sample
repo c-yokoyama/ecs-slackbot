@@ -1,0 +1,7 @@
+AWS_PROFILE: 
+# Used by AWS SDK
+REGION: ap-northeast-1
+# Bot User OAuth Access Token" which starts with "xoxb-"
+BOT_USER_OAUTH_TOKEN: 
+# Get at https://api.slack.com/apps/AHxxx/general
+VERIFICATION_TOKEN: 
